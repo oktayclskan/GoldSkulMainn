@@ -1,0 +1,123 @@
+﻿
+@keyframes zoom-rotate {
+    /* 0% {
+        transform: scale(0.2) rotate(60deg);
+        opacity: 0.5;
+    }
+
+    20% {
+        transform: scale(0.4) rotate(120deg);
+        opacity: 0.6;
+    }
+
+    40% {
+        transform: scale(0.6) rotate(180deg);
+        opacity: 0.7;
+    }
+
+    60% {
+        transform: scale(0.8) rotate(240deg);
+        opacity: 0.8;
+    }
+
+    80% {
+        transform: scale(1) rotate(300deg);
+        opacity: 0.9;
+    }
+
+    100% {
+        transform: scale(1.2) rotate(360deg);
+        opacity: 1;
+    }*/
+    0% {
+        transform: scale(0.3);
+        opacity: 0.2;
+    }
+
+    10% {
+        transform: scale(0.2);
+        opacity: 0.3;
+    }
+
+    20% {
+        transform: scale(0.4);
+        opacity: 0.4;
+    }
+
+    30% {
+        transform: scale(0.3);
+        opacity: 0.5;
+    }
+
+    40% {
+        transform: scale(0.5);
+        opacity: 0.6;
+    }
+
+    50% {
+        transform: scale(0.4);
+        opacity: 0.7;
+    }
+
+    60% {
+        transform: scale(0.6);
+        opacity: 0.8;
+    }
+
+    70% {
+        transform: scale(0.5);
+        opacity: 0.9;
+    }
+
+    80% {
+        transform: scale(0.7);
+        opacity: 1;
+    }
+
+    90% {
+        transform: scale(0.6);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.8);
+        opacity: 1.1;
+    }
+}
+/* Animasyonlu öğe için stil */
+
+.enlarging-image {
+    animation: zoom-rotate 4s linear;
+}
+
+.container .productBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .container .productBox span {
+        font-size: 37pt;
+        font-weight: bold;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 15px;
+        transform: rotate(-50deg);
+    }
+
+.site-footer .site-footer-top span {
+    word-wrap: break-word;
+    color: whitesmoke;
+    font-family: Permanent Marker;
+    font-weight: 100
+}
+
+.site-footer .site-footer-top h2 {
+    font-family: Permanent Marker;
+    font-weight:100
+}
