@@ -3,238 +3,174 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <section class="schedule-section section-padding">
-        <div class="container">
+    <section class="section-padding" id="section_4">
+        <div class="container mt-5">
+
+            <h2 class="text-white text-center">Resimler </h2>
             <div class="row">
 
-                <div class="col-12 text-center mt-5">
-                    <h2 class="text-white mb-4">Galeri</h2>
-                    <div class="table-responsive">
-                        <table class="schedule-table table table-dark">
-                            <thead>
-                                <tr>
-                                    <th scope="col"></th>
+                <div class="col-md-4 mt-3">
+                    <div class="card border-0">
+                        <div class="contentNews">
+                            <div class="card-body bg-black border-danger">
+                                <img src="images/360_F_126046978_yMmRLW907iaoJKvfkARgGyNTzKjxCEJ1.jpg" class="img-thumbnail p-0 border-0 " />
 
-                                    <th scope="col">Çarşamba</th>
 
-                                    <th scope="col">Perşembe</th>
+                                <%-- <p class="date" style="margin-top: -75px">tarih</p>
+                                <br />
+                                <p style="margin-top: -55px" class="title">başlık</p>--%>
+                            </div>
 
-                                    <th scope="col">Cuma</th>
-
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">Day 1</th>
-
-                                    <td class="table-background-image-wrap pop-background-image">
-                                        <h3>Pop Night</h3>
-
-                                        <p class="mb-2">5:00 - 7:00 PM</p>
-
-                                        <p>By Adele</p>
-
-                                        <div class="section-overlay"></div>
-                                    </td>
-                                    <td style="background-color: #F3DCD4"></td>
-
-                                    <td class="table-background-image-wrap rock-background-image">
-                                        <h3>Rock & Roll</h3>
-
-                                        <p class="mb-2">7:00 - 11:00 PM</p>
-
-                                        <p>By Rihana</p>
-
-                                        <div class="section-overlay"></div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Day 2</th>
-
-                                    <td style="background-color: #ECC9C7"></td>
-
-                                    <td>
-                                        <h3>DJ Night</h3>
-
-                                        <p class="mb-2">6:30 - 9:30 PM</p>
-
-                                        <p>By Rihana</p>
-                                    </td>
-
-                                    <td style="background-color: #D9E3DA"></td>
-                                </tr>
-
-                                <tr>
-                                    <th scope="row">Day 3</th>
-
-                                    <td class="table-background-image-wrap country-background-image">
-                                        <h3>Country Music</h3>
-
-                                        <p class="mb-2">4:30 - 7:30 PM</p>
-
-                                        <p>By Rihana</p>
-
-                                        <div class="section-overlay"></div>
-                                    </td>
-
-                                    <td style="background-color: #D1CFC0"></td>
-
-                                    <td>
-                                        <h3>Free Styles</h3>
-
-                                        <p class="mb-2">6:00 - 10:00 PM</p>
-
-                                        <p>By Members</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Day 3</th>
-
-                                    <td class="table-background-image-wrap country-background-image">
-                                        <h3>Country Music</h3>
-
-                                        <p class="mb-2">4:30 - 7:30 PM</p>
-
-                                        <p>By Rihana</p>
-
-                                        <div class="section-overlay"></div>
-                                    </td>
-
-                                    <td style="background-color: #D1CFC0"></td>
-
-                                    <td>
-                                        <h3>Free Styles</h3>
-
-                                        <p class="mb-2">6:00 - 10:00 PM</p>
-
-                                        <p>By Members</p>
-                                    </td>
-                                </tr>
-
-                            </tbody>
-                        </table>
+                        </div>
                     </div>
 
+                </div>
+                <%-- sadece yukarısının bağlanması yeter  bağladıktan sonra buranın altı silinicek ****** asp repedearı row dan sonra başlat yoksa yeni ürün eklendikce yerleri kayar*******--%>
+                <div class="col-md-4 mt-3">
+                    <div class="card border-0">
+                        <div class="contentNews">
+                            <div class="card-body bg-black border-danger">
+                                <img src="images/360_F_126046978_yMmRLW907iaoJKvfkARgGyNTzKjxCEJ1.jpg" class="img-thumbnail p-0 border-0 " />
+                                <p class="date" style="margin-top: -75px">tarih</p>
+                                <br />
+                                <p style="margin-top: -55px" class="title">başlık</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="card border-0">
+                        <div class="contentNews">
+                            <div class="card-body bg-black border-danger">
+                                <img src="images/360_F_126046978_yMmRLW907iaoJKvfkARgGyNTzKjxCEJ1.jpg" class="img-thumbnail p-0 border-0 " />
+                                <p class="date" style="margin-top: -75px">tarih</p>
+                                <br />
+                                <p style="margin-top: -55px" class="title">başlık</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="card border-0">
+                        <div class="contentNews">
+                            <div class="card-body bg-black border-danger">
+                                <img src="images/360_F_126046978_yMmRLW907iaoJKvfkARgGyNTzKjxCEJ1.jpg" class="img-thumbnail p-0 border-0" />
+                                <p class="date" style="margin-top: -75px">tarih</p>
+                                <br />
+                                <p style="margin-top: -55px" class="title">başlık</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="card border-0">
+                        <div class="contentNews">
+                            <div class="card-body bg-black border-danger">
+                                <img src="images/360_F_126046978_yMmRLW907iaoJKvfkARgGyNTzKjxCEJ1.jpg" class="img-thumbnail p-0 border-0 " />
+                                <p class="date" style="margin-top: -75px">tarih</p>
+                                <br />
+                                <p style="margin-top: -55px" class="title">başlık</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="card border-0">
+                        <div class="contentNews">
+                            <div class="card-body bg-black border-danger">
+                                <img src="images/360_F_126046978_yMmRLW907iaoJKvfkARgGyNTzKjxCEJ1.jpg" class="img-thumbnail p-0 border-0 " />
+                                <p class="date" style="margin-top: -75px">tarih</p>
+                                <br />
+                                <p style="margin-top: -55px" class="title">başlık</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <%--****************Video********************--%>
+            <h2 class="text-white text-center mt-5">Videolar </h2>
+            <div class="container mt-4">
+                <div class="row">
+
+
+                    <div class="col-md-4 mt-3">
+                        <div class="card border-0">
+                            <div class="contentNews">
+                                <div class="card-body bg-black border-danger" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+                                    <video src="video/pexels-2022395.mp4" muted class="img-thumbnail" style="border: none!important; background-color: black!important"></video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 mt-3">
+                        <div class="card border-0">
+                            <div class="contentNews">
+                                <div class="card-body bg-black border-danger" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+                                    <video src="video/pexels-2022395.mp4" muted class="img-thumbnail" style="border: none!important; background-color: black!important"></video>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-3">
+                        <div class="card border-0">
+                            <div class="contentNews">
+                                <div class="card-body bg-black border-danger" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+                                    <video src="video/pexels-2022395.mp4" muted class="img-thumbnail" style="border: none!important; background-color: black!important"></video>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-3">
+                        <div class="card border-0">
+                            <div class="contentNews">
+                                <div class="card-body bg-black border-danger" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+                                    <video src="video/pexels-2022395.mp4" muted class="img-thumbnail" style="border: none!important; background-color: black!important"></video>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-3">
+                        <div class="card border-0">
+                            <div class="contentNews">
+                                <div class="card-body bg-black border-danger" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+                                    <video src="video/pexels-2022395.mp4" muted class="img-thumbnail" style="border: none!important; background-color: black!important"></video>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-3">
+                        <div class="card border-0">
+                            <div class="contentNews">
+                                <div class="card-body bg-black border-danger" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+                                    <video src="video/pexels-2022395.mp4" muted class="img-thumbnail" style="border: none!important; background-color: black!important"></video>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="schedule-section section-padding" id="section_4">
-        <div class="container">
-            <div class="row">
+    <script>
+        function playVideo(element) {
+            var video = element.querySelector("video");
+            video.play();
+        }
 
-                <div class="col-12 text-center">
-                    <h2 class="text-white mb-4">Galeri</h2>
-                    <div class="table-responsive">
-                        <table class="schedule-table table table-dark">
-                            <thead>
-                                <tr>
-                                    <th scope="col"></th>
-
-                                    <th scope="col">Çarşamba</th>
-
-                                    <th scope="col">Perşembe</th>
-
-                                    <th scope="col">Cuma</th>
-
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">Day 1</th>
-
-                                    <td class="table-background-image-wrap pop-background-image">
-                                        <h3>Pop Night</h3>
-
-                                        <p class="mb-2">5:00 - 7:00 PM</p>
-
-                                        <p>By Adele</p>
-
-                                        <div class="section-overlay"></div>
-                                    </td>
-
-                                    <td style="background-color: #F3DCD4"></td>
-
-                                    <td class="table-background-image-wrap rock-background-image">
-                                        <h3>Rock & Roll</h3>
-
-                                        <p class="mb-2">7:00 - 11:00 PM</p>
-
-                                        <p>By Rihana</p>
-
-                                        <div class="section-overlay"></div>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <th scope="row">Day 2</th>
-
-                                    <td style="background-color: #ECC9C7"></td>
-
-                                    <td>
-                                        <h3>DJ Night</h3>
-
-                                        <p class="mb-2">6:30 - 9:30 PM</p>
-
-                                        <p>By Rihana</p>
-                                    </td>
-
-                                    <td style="background-color: #D9E3DA"></td>
-                                </tr>
-
-                                <tr>
-                                    <th scope="row">Day 3</th>
-
-                                    <td class="table-background-image-wrap country-background-image">
-                                        <h3>Country Music</h3>
-
-                                        <p class="mb-2">4:30 - 7:30 PM</p>
-
-                                        <p>By Rihana</p>
-
-                                        <div class="section-overlay"></div>
-                                    </td>
-
-                                    <td style="background-color: #D1CFC0"></td>
-
-                                    <td>
-                                        <h3>Free Styles</h3>
-
-                                        <p class="mb-2">6:00 - 10:00 PM</p>
-
-                                        <p>By Members</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Day 3</th>
-
-                                    <td class="table-background-image-wrap country-background-image">
-                                        <h3>Country Music</h3>
-
-                                        <p class="mb-2">4:30 - 7:30 PM</p>
-
-                                        <p>By Rihana</p>
-
-                                        <div class="section-overlay"></div>
-                                    </td>
-
-                                    <td style="background-color: #D1CFC0"></td>
-
-                                    <td>
-                                        <h3>Free Styles</h3>
-
-                                        <p class="mb-2">6:00 - 10:00 PM</p>
-
-                                        <p>By Members</p>
-                                    </td>
-                                </tr>
-
-                            </tbody>
-                        </table>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
+        function pauseVideo(element) {
+            var video = element.querySelector("video");
+            video.pause();
+        }
+    </script>
 </asp:Content>

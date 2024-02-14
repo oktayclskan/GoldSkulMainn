@@ -121,3 +121,10 @@
     font-family: Permanent Marker;
     font-weight:100
 }
+.nav-item:hover a.nav-link {
+    color: red;
+}
+
+.nav-item.active a.nav-link {
+    color: red;
+}

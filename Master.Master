@@ -75,19 +75,22 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="#../Index.aspx#section_3">Sanatçılar</a>
+
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="Product.aspx">Urun</a>
+                                <a class="nav-link click-scroll" href="#../Index.aspx#section_4">Randevu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="../Index.aspx#section_5">İletişim</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="Product.aspx">Urun</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="Galery.aspx">Galeri</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="../Index.aspx#section_5">Randevu</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="../Index.aspx#section_6">İletişim</a>
-                            </li>
+
+
                             <li class="nav-item float-end" style="border-bottom: 3px solid red">
                                 <a class="nav-link click-scroll p-0" href="Index.aspx">TR</a> / 
                                 <a class="nav-link click-scroll p-0" href="IndexEn.aspx">EN</a>
@@ -115,7 +118,7 @@
 
                             <%-- <span class="text-white mb-2">Başlık</span> <br />--%>
 
-                            <span >KR.1.70.PENCERE.T.K.Ç.AÇ.1200.1000.SOL.BZKR.1.70.PENCERE.T.K.Ç.AÇ.1200.1000.SOL.BZ</span>
+                            <span>KR.1.70.PENCERE.T.K.Ç.AÇ.1200.1000.SOL.BZKR.1.70.PENCERE.T.K.Ç.AÇ.1200.1000.SOL.BZ</span>
 
                         </div>
                         <div class="col-lg-3 d-flex justify-content-lg-end align-items-center mt-2">
@@ -125,7 +128,7 @@
                         </div>
                         <div class="col-lg-3 mt-3">
                             <%-- <span class="text-white mb-2">Başlık</span> <br />--%>
-                            <span >KR.1.70.PENCERE.T.K.Ç.AÇ.1200.1000.SOL.BZKR.1.70.PENCERE.T.K.Ç.AÇ.1200.1000.SOL.BZ</span>
+                            <span>KR.1.70.PENCERE.T.K.Ç.AÇ.1200.1000.SOL.BZKR.1.70.PENCERE.T.K.Ç.AÇ.1200.1000.SOL.BZ</span>
                         </div>
                     </div>
                 </div>

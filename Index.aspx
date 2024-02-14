@@ -205,8 +205,8 @@
         </section>
 
 
-    
-        <section class="pricing-section section-padding section-bg" id="section_5">
+
+        <section class="pricing-section section-padding section-bg" id="section_4">
             <div class="container">
                 <div class="row">
 
@@ -281,7 +281,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact-section section-padding" id="section_6">
+        <section class="contact-section section-padding" id="section_5">
             <div class="container">
                 <div class="row">
                     <iframe class="google-map bg-dark "
