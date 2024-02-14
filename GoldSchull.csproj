@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Contact.aspx" />
     <Content Include="css\bootstrap-icons.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\MainCss.css" />
@@ -2145,6 +2146,7 @@
     <Content Include="fontawesome-free-6.5.1-web\svgs\solid\yen-sign.svg" />
     <Content Include="fontawesome-free-6.5.1-web\svgs\solid\yin-yang.svg" />
     <Content Include="fontawesome-free-6.5.1-web\svgs\solid\z.svg" />
+    <Content Include="Galery.aspx" />
     <Content Include="Global.asax" />
     <Content Include="images\360_F_126046978_yMmRLW907iaoJKvfkARgGyNTzKjxCEJ1.jpg" />
     <Content Include="images\ablouthd.jpg" />
@@ -2170,12 +2172,26 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
     <Compile Include="deneme.aspx.cs">
       <DependentUpon>deneme.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="deneme.aspx.designer.cs">
       <DependentUpon>deneme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Galery.aspx.cs">
+      <DependentUpon>Galery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Galery.aspx.designer.cs">
+      <DependentUpon>Galery.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
