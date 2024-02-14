@@ -101,7 +101,7 @@
                         <div class="card border-0">
                             <div class="contentNews">
                                 <div class="card-body bg-black border-danger" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
-                                    <video src="video/pexels-2022395.mp4" muted class="img-thumbnail" style="border: none!important; background-color: black!important"></video>
+                                    <video src="video/pexels-2022395.mp4" controls muted class="img-thumbnail" style="border: none!important; background-color: black!important"></video>
                                 </div>
                             </div>
                         </div>
