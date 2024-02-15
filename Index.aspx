@@ -24,7 +24,7 @@
 
                         <small>Pişman olmadan yaşa</small>
                         <h1 class="text-white mb-5">GOLD SKULL</h1>
-                        <a class="btn custom-btn smoothscroll" href="#section_2">Randevu Al</a>
+                        <a class="btn custom-btn smoothscroll" href="#section_4">Randevu Al</a>
                     </d>
                     <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
                         <div class="date-wrap">

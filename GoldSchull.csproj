@@ -2147,6 +2147,7 @@
     <Content Include="fontawesome-free-6.5.1-web\svgs\solid\yin-yang.svg" />
     <Content Include="fontawesome-free-6.5.1-web\svgs\solid\z.svg" />
     <Content Include="Galery.aspx" />
+    <Content Include="GaleryVideo.aspx" />
     <Content Include="Global.asax" />
     <Content Include="IlkesArea\assets\brand\coreui.svg" />
     <Content Include="IlkesArea\assets\favicon\android-icon-144x144.png" />
@@ -3442,6 +3443,13 @@
     </Compile>
     <Compile Include="Galery.aspx.designer.cs">
       <DependentUpon>Galery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GaleryVideo.aspx.cs">
+      <DependentUpon>GaleryVideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GaleryVideo.aspx.designer.cs">
+      <DependentUpon>GaleryVideo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
