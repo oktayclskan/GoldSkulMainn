@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="deneme.aspx.cs" Inherits="GoldSchull.deneme" %>
+﻿    <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="deneme.aspx.cs" Inherits="GoldSchull.deneme" %>
 
 <!DOCTYPE html>
 

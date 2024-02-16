@@ -43,6 +43,7 @@
 <body>
     <form id="form1" runat="server">
         <main>
+
             <%-- <header class="site-header" style="border-bottom: 3px solid red; /*background-color: red; */">
                 <div class="container">
                     <div class="row">
@@ -56,6 +57,7 @@
                     </div>
                 </div>
             </header>--%>
+
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">LOGO
@@ -74,7 +76,7 @@
                                 <a class="nav-link click-scroll" href="../Index.aspx#section_2">Hakkımızda</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#../Index.aspx#section_3">Sanatçılar</a>
+                                <a class="nav-link click-scroll" href="#../Index.aspx#section_3">Sanatçılar</a> 
 
                             </li>
                             <li class="nav-item">
@@ -89,8 +91,6 @@
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="Galery.aspx">Galeri</a>
                             </li>
-
-
                             <li class="nav-item float-end" style="border-bottom: 3px solid red">
                                 <a class="nav-link click-scroll p-0" href="Index.aspx">TR</a> / 
                                 <a class="nav-link click-scroll p-0" href="IndexEn.aspx">EN</a>
