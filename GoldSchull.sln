@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldSchull", "GoldSchull.csproj", "{B4F2A931-61B5-4361-9A92-DA791070575E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "..\DaraAccessLayer\DataAccessLayer.csproj", "{08BE4EED-C156-4D92-9E61-4D07931AC55E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B4F2A931-61B5-4361-9A92-DA791070575E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4F2A931-61B5-4361-9A92-DA791070575E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4F2A931-61B5-4361-9A92-DA791070575E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BE4EED-C156-4D92-9E61-4D07931AC55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BE4EED-C156-4D92-9E61-4D07931AC55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BE4EED-C156-4D92-9E61-4D07931AC55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BE4EED-C156-4D92-9E61-4D07931AC55E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
