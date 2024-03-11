@@ -2149,6 +2149,7 @@
     <Content Include="Galery.aspx" />
     <Content Include="GaleryVideo.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="IlkesArea\AdminAdd.aspx" />
     <Content Include="IlkesArea\assets\brand\coreui.svg" />
     <Content Include="IlkesArea\assets\favicon\android-icon-144x144.png" />
     <Content Include="IlkesArea\assets\favicon\android-icon-192x192.png" />
@@ -3143,6 +3144,7 @@
     <Content Include="IlkesArea\buttons\button-group.html" />
     <Content Include="IlkesArea\buttons\buttons.html" />
     <Content Include="IlkesArea\buttons\dropdowns.html" />
+    <Content Include="IlkesArea\css\AreaCss.css" />
     <Content Include="IlkesArea\css\examples.css" />
     <Content Include="IlkesArea\css\examples.min.css" />
     <Content Include="IlkesArea\css\style.css" />
@@ -3439,6 +3441,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="IlkesArea\AdminAdd.aspx.cs">
+      <DependentUpon>AdminAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IlkesArea\AdminAdd.aspx.designer.cs">
+      <DependentUpon>AdminAdd.aspx</DependentUpon>
     </Compile>
     <Compile Include="IlkesArea\Defualt.aspx.cs">
       <DependentUpon>Defualt.aspx</DependentUpon>

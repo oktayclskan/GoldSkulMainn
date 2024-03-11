@@ -33,84 +33,86 @@
     <!-- We use those styles to show code examples, you should remove them in your application.-->
     <link href="css/examples.css" rel="stylesheet">
     <link href="vendors/@coreui/chartjs/css/coreui-chartjs.css" rel="stylesheet">
+    <link href="css/AreaCss.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="sidebar sidebar-dark sidebar-fixed" id="sidebar">
-            <div class="sidebar-brand d-none d-md-flex">
+        <div class="container-fluid">
+            <div class="sidebar sidebar-dark sidebar-fixed">
+                <div class="sidebar-brand d-none d-md-flex">
+                </div>
+                <ul class="sidebar-nav" data-coreui="navigation" data-simplebar="">
+                    <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+                        <svg class="nav-icon">
+                            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-comment-bubble"></use>
+                        </svg>
+                        Admin</a>
+                        <ul class="nav-group-items">
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Listele</a></li>
+                            <li class="nav-item"><a class="nav-link" href="AdminAdd.aspx"><span class="nav-icon"></span>Ekle</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Düzenle</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+                        <svg class="nav-icon">
+                            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-people"></use>
+                        </svg>
+                        Sanatçı</a>
+                        <ul class="nav-group-items">
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Listele</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Ekle</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Düzenle</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+                        <svg class="nav-icon">
+                            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-filter-photo"></use>
+                        </svg>
+                        Resimler</a>
+                        <ul class="nav-group-items">
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Listele</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Ekle</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Düzenle</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+                        <svg class="nav-icon">
+                            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-video"></use>
+                        </svg>
+                        Videolar</a>
+                        <ul class="nav-group-items">
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Listele</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Ekle</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Düzenle</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+                        <svg class="nav-icon">
+                            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bell"></use>
+                        </svg>
+                        Ana Ekran Sözü</a>
+                        <ul class="nav-group-items">
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Listele</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Ekle</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Düzenle</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+                        <svg class="nav-icon">
+                            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-closed-captioning"></use>
+                        </svg>
+                        Ürünler</a>
+                        <ul class="nav-group-items">
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Listele</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Ekle</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Düzenle</a></li>
+                        </ul>
+                    </li>
             </div>
-            <ul class="sidebar-nav" data-coreui="navigation" data-simplebar="">
-                <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
-                    <svg class="nav-icon">
-                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-comment-bubble"></use>
-                    </svg>
-                    Admin</a>
-                    <ul class="nav-group-items">
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Listele</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Ekle</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Düzenle</a></li>
-                    </ul>
-                </li>
-                <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
-                    <svg class="nav-icon">
-                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-people"></use>
-                    </svg>
-                    Sanatçı</a>
-                    <ul class="nav-group-items">
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Listele</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Ekle</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Düzenle</a></li>
-                    </ul>
-                </li>
-                <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
-                    <svg class="nav-icon">
-                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-filter-photo"></use>
-                    </svg>
-                    Resimler</a>
-                    <ul class="nav-group-items">
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Listele</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Ekle</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Düzenle</a></li>
-                    </ul>
-                </li>
-                <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
-                    <svg class="nav-icon">
-                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-video"></use>
-                    </svg>
-                    Videolar</a>
-                    <ul class="nav-group-items">
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Listele</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Ekle</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Düzenle</a></li>
-                    </ul>
-                </li>
-                <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
-                    <svg class="nav-icon">
-                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bell"></use>
-                    </svg>
-                    Ana Ekran Sözü</a>
-                    <ul class="nav-group-items">
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Listele</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Ekle</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Düzenle</a></li>
-                    </ul>
-                </li>
-                <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
-                    <svg class="nav-icon">
-                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-closed-captioning"></use>
-                    </svg>
-                    Ürünler</a>
-                    <ul class="nav-group-items">
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Listele</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Ekle</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-icon"></span>Düzenle</a></li>
-                    </ul>
-                </li>
-        </div>
-        <div style="clear: both"></div>
-        <div class="container ">
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+            <div class="container">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
         </div>
     </form>
 
