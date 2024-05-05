@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/IlkesArea/IlkesAdmin.Master" AutoEventWireup="true" CodeBehind="AdminAdd.aspx.cs" Inherits="GoldSchull.IlkesArea.AdminAdd" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/IlkesArea/IlkesAdmin.Master" AutoEventWireup="true" CodeBehind="AdminEdit.aspx.cs" Inherits="GoldSchull.IlkesArea.AdminEdit" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -9,7 +9,7 @@
         </div>
         <div class="formContent">
             <asp:Panel ID="pnl_success" runat="server" CssClass="success" Visible="False">
-                Admin Eklendi
+                Admin Güncellendi
             </asp:Panel>
             <asp:Panel ID="pnl_unsuccess" runat="server" CssClass="unsuccess" Visible="False">
                 <asp:Label ID="lbl_message" runat="server"></asp:Label>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="form-group col-md-4 m-1">
                     <label class="m-1">Password</label>
-                    <asp:TextBox TextMode="Password" ID="tb_pasword" runat="server" CssClass="form-control"></asp:TextBox>
+                    <asp:TextBox ID="tb_pasword" runat="server" CssClass="form-control"></asp:TextBox>
                 </div>
             </div>
 
@@ -48,11 +48,13 @@
                 </div>
             </div>
             <div>
-                <asp:LinkButton ID="lbtn_add" runat="server" Text="Admin Ekle" CssClass="btn btn-dark mt-2" OnClick="lbtn_add_Click"></asp:LinkButton>
+                <asp:LinkButton ID="lbtn_edit" runat="server" Text="Admin Düzenle" CssClass="btn btn-dark mt-2" OnClick="lbtn_edit_Click"></asp:LinkButton>
             </div>
         </div>
 
 
     </div>
-    
+
+
+
 </asp:Content>

@@ -11,7 +11,7 @@ namespace GoldSchull.IlkesArea
 {
 
 
-    public partial class AdminAdd
+    public partial class AdminEdit
     {
 
         /// <summary>
@@ -96,12 +96,12 @@ namespace GoldSchull.IlkesArea
         protected global::System.Web.UI.WebControls.CheckBox cb_isActive;
 
         /// <summary>
-        /// lbtn_add control.
+        /// lbtn_edit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lbtn_add;
+        protected global::System.Web.UI.WebControls.LinkButton lbtn_edit;
     }
 }
